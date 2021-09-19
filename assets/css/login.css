@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ html,body {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    background: url(../images/login_bg.jpg) no-repeat;
+    background-size:cover
+}
+/* 登录盒子制作 */
+.loginAndregist_box {
+    width: 400px;
+    height: 310px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.title_box {
+    height: 60px;
+    background: url('../images/login_title.png') no-repeat center;
+}
+#link_reg {
+    display: none;
+    padding: 0 20px;
+
+}
+#link_login{
+    padding: 0 20px;
+}
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.layui-input {
+    padding-left: 32px;
+}
+
+
