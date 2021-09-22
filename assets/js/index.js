@@ -5,7 +5,7 @@ $(function () {
 // h获取用户信息
 function getuserinfo() {
     $.ajax({
-        method: 'get',
+        method: 'GET',
         url: '/my/userinfo',
         success: function (res) {
             if (res.status != 0) {
