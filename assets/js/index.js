@@ -23,7 +23,7 @@ function getuserinfo() {
 
 // 渲染用户头像
 function avatar(user) {
-    var name = user.username || user.nickname;
+    var name = user.nickname || user.username;
 
     $('#welcome').html('欢迎&nbsp;' + ':' + name)
     if (user.user_pic == null) {
